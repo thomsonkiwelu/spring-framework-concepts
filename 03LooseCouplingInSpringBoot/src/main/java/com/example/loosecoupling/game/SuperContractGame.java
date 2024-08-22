@@ -1,4 +1,4 @@
-package com.example.loosecoupling;
+package com.example.loosecoupling.game;
 
 public class SuperContractGame implements GamingConsole{
     public void up(){

@@ -1,4 +1,15 @@
-package com.example.loosecoupling;
+package com.example.loosecoupling.game;
+
+import org.springframework.context.annotation.Primary;
+import org.springframework.stereotype.Component;
+
+@Component
+
+/*
+   @Primary
+   Preference candidate or Bean
+*/
+@Primary
 
 public class MarioGame implements GamingConsole {
     public void up(){

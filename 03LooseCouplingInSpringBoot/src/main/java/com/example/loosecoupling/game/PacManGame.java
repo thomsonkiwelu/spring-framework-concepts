@@ -1,5 +1,10 @@
-package com.example.loosecoupling;
+package com.example.loosecoupling.game;
 
+import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.stereotype.Component;
+
+@Component
+@Qualifier("PacManGame")
 public class PacManGame implements GamingConsole {
     public void up(){
         System.out.println("Go up");
