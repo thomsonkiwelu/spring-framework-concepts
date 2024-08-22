@@ -1,2 +1,2 @@
-# spring-framework-concepts
+# Spring Framework Concepts
 Spring Framework Core Concepts
